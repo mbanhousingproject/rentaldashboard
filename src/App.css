@@ -1,0 +1,33 @@
+.app {
+  text-align: center;
+  background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 2em;
+}
+
+.chart-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.chart {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #666;
+}
